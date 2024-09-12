@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="resume-container">
+    <header>
+      <h1>Farah Shabir</h1>
+      <p>Web Developer</p>
+      <button id="contact-toggle">Show Contact Info</button>
+      <div id="contact-info" class="hidden">
+        <p>Email: farahshabir@gmail.com</p>
+        <p>Phone: +92 300 1234567</p>
+      </div>
+    </header>
+
+    <section>
+      <h2>Education</h2>
+        <div class="section-content">
+          <h3>BS in Information and Technology</h3>
+            <p>University of Sindh, Jamshoro</p>
+            <p>Graduated: 2015</p>
+        </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="section-content">
+          <div class="skill">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="star-rating" data-rating="5">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <div class="skill">
+                      <span class="skill-name">HTML</span>
+                      <div class="star-rating" data-rating="4">
+                          <span class="star">&#9733;</span>
+                          <span class="star">&#9733;</span>
+                          <span class="star">&#9733;</span>
+                          <span class="star">&#9733;</span>
+                          <span class="star">&#9733;</span>
+                      </div>
+                      <div class="skill">
+                        <span class="skill-name">CSS</span>
+                        <div class="star-rating" data-rating="3">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9734;</span>
+                            <span class="star">&#9734;</span>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+      </div>
+    </section>
+
+    <section id="experience-section">
+      <h2>Experience</h2>
+      <div class="section-content">
+        <div class="job">
+          <h3>Web Developer</h3>
+          <p>XYZ Software House</p>
+          <button class="toggle-details">Details</button>
+          <div class="details hidden">
+            <p>Detail-oriented, analytical, and self-driven programmer with extensive 
+              experience building user-facing applications. ...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
